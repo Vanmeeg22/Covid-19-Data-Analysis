@@ -1,0 +1,8 @@
+--> The data types of 'total_deaths' and 'total_cases' were 'nvarchar'. Hence, required to change them to float.
+
+--> Continents are present in both 'continent' and 'location' columns. When the continents are present in the 'location' column, the 'continent' column is null.
+
+--> Divide by zero error encountered.
+	--> 	SELECT numerator / denominator AS result
+		FROM your_table
+		WHERE denominator <> 0;
